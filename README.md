@@ -1,2 +1,2 @@
-# CEE600M0002_Fal2020
+# CEE600M0002_Fall2020
 code sprints and research collaboration for Environmental Data Science
