@@ -1,0 +1,27 @@
+Repository: CEE600M0002_Fall2020/Git_101
+Created on: 9/13/2020
+Author: Elizabeth Carter
+Author contact: ekcarter@syr.edu
+
+This folder contains two files:
+
+1) 2281197.csv
+Data downloaded from NOASS CDO web portal (https://www.ncdc.noaa.gov/cdo-web/search)
+
+Processing Completed	2020-09-15
+Stations	
+GHCND:USW00014771
+Begin Date	2019-09-08 00:00
+End Date	2020-09-08 23:59
+Data Types	
+PRCP SNWD SNOW TAVG TMAX TMIN AWND 
+Units	
+Standard
+Custom Flag(s)	
+Station Name
+Eligible for Certification	No
+
+2) climate_trend.py
+Python script to calculate trend in precipitation.
+
+TO DO: needs to ingest TAVGs
