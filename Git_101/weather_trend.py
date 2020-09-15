@@ -7,17 +7,25 @@ import pandas as pd
 import numpy as np
 from statsmodels.api import OLS
 
+#Read in ewather data included in git repository
 weather_dat=pd.read_csv("2281205.csv")
-Y = np.array(range(weather_dat.shape[0]))
-X = np.array(weather_dat.TAVG)
 
-#THIS LINE IS NONSENSE...or is it?
+#create np.array  representing accumulation of days
+X = np.array(range(weather_dat.shape[0]))
 
-Y=Y[np.logical_not(np.isnan(X))]
-X=X[np.logical_not(np.isnan(X))]
+#extract variable that we want to "predict"
+Y = np.array(weather_dat.TAVG)
 
-results =OLS(X,Y).fit().summary()
+#THIS LINE IS NONSENSE...or is it? you decide if it should stay or go
 
+#remove no data values
+Y=Y[np.logical_not(np.isnan(Y))]
+X=X[np.logical_not(np.isnan(Y))]
+
+#calculate results of ordinary least squares regression
+results =OLS(Y,X).fit().summary()
+
+#open text file and save model results
 text_file = open("results.txt", "w")
 text_file.write(str(results))
 text_file.close()
