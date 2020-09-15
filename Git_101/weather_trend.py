@@ -19,8 +19,8 @@ Y = np.array(weather_dat.TAVG)
 #THIS LINE IS NONSENSE...or is it? you decide if it should stay or go
 
 #remove no data values
-Y=Y[np.logical_not(np.isnan(Y))]
 X=X[np.logical_not(np.isnan(Y))]
+Y=Y[np.logical_not(np.isnan(Y))]
 
 #calculate results of ordinary least squares regression
 results =OLS(Y,X).fit().summary()
