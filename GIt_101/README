@@ -5,23 +5,23 @@ Author contact: ekcarter@syr.edu
 
 This folder contains two files:
 
-1) 2281197.csv
+1) 2281205.csv
 Data downloaded from NOASS CDO web portal (https://www.ncdc.noaa.gov/cdo-web/search)
 
 Processing Completed	2020-09-15
 Stations	
 GHCND:USW00014771
-Begin Date	2019-09-08 00:00
+Begin Date	1938-12-25 00:00
 End Date	2020-09-08 23:59
 Data Types	
-PRCP SNWD SNOW TAVG TMAX TMIN AWND 
+PRCP SNWD SNOW TAVG TMAX TMIN AWND WT09 WT01 WT06 WT05 WT02 WT04 WT08 WT03 
 Units	
 Standard
 Custom Flag(s)	
 Station Name
 Eligible for Certification	No
 
-2) climate_trend.py
+2) weather_trend.py
 Python script to calculate trend in precipitation.
 
 TO DO: needs to ingest TAVGs
