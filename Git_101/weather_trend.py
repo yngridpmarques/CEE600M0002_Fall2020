@@ -14,7 +14,7 @@ weather_dat=pd.read_csv("2281205.csv")
 X = np.array(range(weather_dat.shape[0]))
 
 #extract variable that we want to "predict"
-Y = np.array(weather_dat.TAVG)
+Y = np.array(weather_dat.TMAX)
 
 #THIS LINE IS NONSENSE...or is it? you decide if it should stay or go
 
