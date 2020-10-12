@@ -49,11 +49,11 @@ If this is going to be a public facing directory, this tells people how you'd li
 # **Citation:**
 Whenever you use code, analytical frameworks, or data, you need to cite the work that lead to this. Acknowledging or inviting significant code collaborators to join your publications may be appropriate at times as well.
 
-If code or data derived from this work is used in research, please cite:
+For example, if code or data derived from this work is used in research, please cite:
 
-Carter, E; Herrera, D; Steinschneider, S. (2020). Feature engineering for S2S warm-season precipitation forecasts in the Midwestern US: towards a unifying hypothesis of anomalous warm-season hydroclimatic circulation. Journal of Climate, in review.
+*Carter, E; Herrera, D; Steinschneider, S. (2020). Feature engineering for S2S warm-season precipitation forecasts in the Midwestern US: towards a unifying hypothesis of anomalous warm-season hydroclimatic circulation. Journal of Climate, in review.*
 
-*As a graduate student you should publish! Put your "in preparation" manuscript here so that folks using your code know where to check back once you've gotten it published. *
+*As a graduate student you should publish! Put your "in preparation" manuscript here so that folks using your code know where to check back once you've gotten it published.*
 
 # **License:**
 [Chose a license here](https://choosealicense.com/)
