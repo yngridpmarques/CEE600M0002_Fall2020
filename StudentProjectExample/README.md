@@ -13,7 +13,7 @@ The repository has five main folders:
 * **raw_data:** contains files and folders representing raw quantitative research outputs, datasets downloaded directly from the internet, or subsets of datasets downloaded directly from the internet
 * **training_data:** contains analysis-ready data (aka in the format required as an input to your statistical or image generating software), derived from your raw_data files
 * **model_outputs:** contains trained statstical models, parameter/weight estimate files, model fit and summary statistics, and predicted and residual values
-* **images:** contains figures and tables for your research paper
+* **graphics:** contains figures and tables for your research paper
 * **code:** contains all code, and required containers or environments, to produce contents of above mentioned files. At a minimum, it should include:
   * *data download/process code:* Database API search scripts and R, python, bash (wget) scripts which link data in your "raw_data" folder to a source stable, version-controlled database or directory.
   * *data process code:* R or python scripts which subset, reproject, gap fill, standardize, extract features, derive indices, and implement any other commands required to convert your raw data into an analysis ready format (generally a data frame, matrix, or array object in R or Python)
